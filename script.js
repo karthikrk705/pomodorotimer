@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const startstopbtn = document.querySelector('#glasscontainer');
     const mindis = document.querySelector('#minutes');
     const secdis = document.querySelector('#seconds');
-
     const blacktop = document.querySelector('#blacktop')
     const blackbot = document.querySelector('#blackbot')
   
@@ -123,16 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
       music.pause();
     }
   });
-
-
-//   let h1 = 0
-//   let h2 = 66
-//   function updatehourglass(cc){
-//     let v1 = Math.floor(h1+cc) 
-//     let v2 = Math.floor(h2-cc)
-//     blacktop.style.height = v1 + 'cm';
-//     blackbot.style.height = v2 + 'cm';  
-//    }
 
   
 });
