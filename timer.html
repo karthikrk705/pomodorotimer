@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:wght@400;600&family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="qoutes"><span id="minutes">00</span><span> : </span><span id="seconds">00</span></div>
+    <div id="glasscontainer" value="Start">
+        <img src="th4.png" alt="" id="himage">
+        <div id="blacktop"></div>
+        <img src="top.png" alt="" id="topimage">
+        <img src="top.png" alt="" id="botimage">
+        <div id="blackbot"></div>
+    </div>
+    <div id="timers">
+        <div id="settime">WorkTime: <input type="number" id="settimein" placeholder="min" min="0" max="180"></div>
+        <div id="seperator"></div>
+        <div id="resttime">RestTime: <input type="number" id="resttimein" placeholder="min" min="0" max="60"></div>
+    </div>
+
+    <div id="musicplayer">
+        <button id="playButton"><img src="https://static.vecteezy.com/system/resources/previews/000/421/044/original/music-note-icon-vector-illustration.jpg" alt="" id="micimg"></button>
+        <audio id="music" src="howling-wind-14892.mp3"></audio>
+    </div>
+    
+    <script src="script.js" ></script>
+</body>
+</html>
